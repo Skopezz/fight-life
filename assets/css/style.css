@@ -16,15 +16,20 @@ body {
   flex-direction: column;
   /* Generic project styles */
   color: #3a3a3a;
-  font-family: 'Prompt', sans-serif;
+  font-family: "Prompt", sans-serif;
 }
 
 /* Header */
 header {
-  background-color: lightcoral;
+  background-color: black;
+  padding: 0 1rem;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
 }
 h1 {
-    font-family: 'DM Serif Display', sans-serif;
+  font-family: "DM Serif Display", sans-serif;
+  color: #fff;
 }
 /* Main Content */
 main {
