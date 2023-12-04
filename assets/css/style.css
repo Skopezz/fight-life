@@ -38,6 +38,24 @@ h1 {
     letter-spacing: 8px;
   }
 
+  #menu {
+    list-style-type: none;
+    font-size: 110%;
+    color: #fff;
+
+  }
+
+  #menu > li {
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    font-size: medium;
+  }
+
+  .active {
+    color: orange;
+    border-bottom: orange 1px solid;
+  }
+
 /* Main Content */
 main {
   background-color: lightblue;
