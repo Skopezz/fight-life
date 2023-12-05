@@ -56,6 +56,19 @@ h1 {
     border-bottom: orange 1px solid;
   }
 
+  /* Navbar styles with dropdown toggle */
+
+  nav {
+    position: absolute;
+    background-color: gray;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    display: none;
+  }
+
+  
+
 /* Main Content */
 main {
   background-color: lightblue;
